@@ -2,7 +2,10 @@
 
 플레이어가 비행기를 조작해 장애물(적)을 피하며 점수를 얻는 간단한 2D 슈팅게임입니다.
 
-![게임 스크린샷](./image.png)
+![스크린샷 2025-05-26 144118](https://github.com/user-attachments/assets/07bf0a36-f770-47c7-b050-a587090bc789)
+![스크린샷 2025-05-26 144746](https://github.com/user-attachments/assets/366c074b-2f1c-43d2-bfaa-e8d83da00d1f)
+![스크린샷 2025-05-26 144801](https://github.com/user-attachments/assets/9b02624f-5e21-419d-8d33-39e2bf314dba)
+
 
 ---
 
@@ -10,12 +13,11 @@
 
 - [소개](#소개)
 - [주요 기능](#주요-기능)
-- [스크린샷](#스크린샷)
+
 - [설치 및 실행](#설치-및-실행)
 - [주요 코드 설명](#주요-코드-설명)
-- [기여 방법](#기여-방법)
-- [라이선스](#라이선스)
-- [문의](#문의)
+
+
 
 ---
 
@@ -34,22 +36,4 @@
 - 적과 충돌 시 게임 오버
 - 적 생성 주기, 최대 적 수 등 커스터마이즈 가능
 
----
 
-## 스크린샷
-![스크린샷 2025-05-26 144118](https://github.com/user-attachments/assets/9bcdb164-5a8b-40f2-a5a4-07ab2d0a4257)
-
-
-
----
-
-## 설치 및 실행
-
-```bash
-# 저장소 클론
-git clone https://github.com/your-id/java-shooting-game.git
-cd java-shooting-game
-
-# 빌드 및 실행 (IDE 사용 가능, 또는 CLI에서)
-javac -d bin src/**/*.java
-java -cp bin game.main.Main
